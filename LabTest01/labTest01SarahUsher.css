@@ -1,0 +1,78 @@
+
+/* (c) Sarah Usher */
+
+* {
+    box-sizing: border-box;
+    background-color:lightgoldenrodyellow;
+  }
+  
+  h2 {
+
+    text-align:right;
+    color: yellow; 
+    background-color:green; 
+    
+  }
+ 
+
+  div {
+      
+float: right;
+
+  }
+  
+  
+  .input {
+      border:none;
+      text-align:right;
+  }
+  
+  p {
+      text-align:right;
+      padding: 20px;
+      
+    }
+  
+  input, button {
+      font:inherit;
+      color: green;
+      width:100px;
+      padding-left: 5px;
+      
+      
+  }
+
+  button {
+      color: white;
+      background-color: green;
+      width:200px   
+             
+  }
+  
+ 
+  
+  strong {
+      font-family: NimbusSanL, Arial, sans-serif;
+      font-size:1.2em;
+      color:Green; 
+      text-decoration:bold;
+  }
+  
+  
+  
+  /* Responsive layout - makes the columns stack on
+     top of each other instead of next to each other */
+  
+    [class*="column1"] { 
+       width: 80%;
+       display:inline-block;
+       height:60vh;
+       font-size:1.5em;
+    }
+  
+  @media screen and (min-width:600px) {
+    [class*="column1"] {
+      width:50%;
+    }
+    
+  }
