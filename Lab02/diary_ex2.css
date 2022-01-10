@@ -1,0 +1,23 @@
+body {
+    background-image: url("file:///Users/sarahu/Documents/Lab02/images/paper.png");
+  }
+
+body {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .content {
+    background-color: ivory;
+  }
+
+  .diary {
+    background-color:rgb(236, 236, 245);
+    padding: 15px;
+    margin-top: 10px;
+  }
+
+  
+
+
+
